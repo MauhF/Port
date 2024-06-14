@@ -126,7 +126,10 @@ body {
 
 #contatos {
     margin: 20px 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 #contatos a {
@@ -143,6 +146,7 @@ body {
 
 #contatos i {
     margin-right: 8px;
+    
 }
 
 .projetos {
@@ -170,4 +174,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.rodape{
+    width: 3vw;
+}
+
+@media screen and (min-width: 740px){
+
 }
