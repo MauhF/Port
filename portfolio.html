@@ -19,7 +19,7 @@
         <div class="links">
             <a href="#sobre">Sobre | </a>
             <a href="#habilidades">Habilidades | </a>
-            <a href="#portfolio">Portfólio | </a>
+            <a href="#projetos-detalhados">Portfólio | </a>
             <a href="#contatos">Contato | </a>
         </div>
     </div>
@@ -29,7 +29,7 @@
         <div class="ola"><p class="maior">Olá, Mauricio França, Desenvolvedor Iniciante</p></div>
     </div>
     <div id="sobre">
-        <div>Desenvolvedor em Aprendizado.</div>
+        <div>Mini Dev, tentando aprender HTML e CSS através do Professor e junto dos colegas</div>
     </div>
     <div id="habilidades">
         <div class="front">
@@ -47,14 +47,32 @@
             <div><img src="Mysql.png" width="50%" alt="MySQL"></div>
             <div><img src="heidisql.png" width="50%" alt="HeidiSQL"></div>
         </div>
-    </div>
-    <div class="projetos">
-        <a href="https://pt.wikipedia.org/wiki/Projeto" target="_blank">PROJETO 1</a>
-
-            <a href="https://artia.com/blog/categoria/gerenciamento-de-projetos/" target="_blank">PROJETO 2</a>
-
-        <a href="https://pt.wikipedia.org/wiki/Prot%C3%B3tipo" target="_blank">PROJETO 3</a>
-
+      
+    </div><br></div>
+    <div id="projetos-detalhados" class="projetos-detalhados">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1: wiki</h3>
+            <p>Tecnologias usadas: HTML, CSS, JavaScript.</p>
+            <p>A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue</p>
+            <div class="projeto-detalhes">
+                <img src="Captura 1.png" alt="Captura de tela do Projeto 1">
+                <div class="projeto-links">
+                    <a href="https://pt.wikipedia.org/wiki/Projeto" target="_blank">Demonstração</a>
+                </div>
+            </div>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2: Artia</h3>
+            <p>Tecnologias usadas: HTML, CSS, JavaScript.</p>
+            <p>Informações úteis sobre o Gerenciamento de Projetos</p>
+            <div class="projeto-detalhes">
+                <img src="Capt2.png" alt="Captura de tela do Projeto 2">
+                <div class="projeto-links">
+                    <a href="https://artia.com/blog/categoria/gerenciamento-de-projetos/" target="_blank">Demonstração</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="contatos">
         <h2>Contato</h2>
@@ -63,6 +81,22 @@
         <a class="rodape" href="https://github.com/MauhF" target="_blank"><img class="rodape" src="gift.png" alt="gift.png"></a>
         <a class="rodape" href="https://www.linkedin.com/in/mauricio-franca" target="_blank"><img class="rodape" src="linkedin.png" alt="linkedin.png"></a>
     </div>
+    <div id="contato-interativo" class="contato-interativo">
+        <h2>Contato</h2>
+        <form action="enviar_mensagem.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
     <div id="rodape">
         <p>&copy; 2024 Mauricio França</p>
     </div>
